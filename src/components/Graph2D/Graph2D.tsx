@@ -23,7 +23,7 @@ const Graph2D: React.FC = () => {
     let canMove = false;
     let graph: Graph | null = null;
 
-    const wheel = (event: MouseEvent) => { }
+    const wheel = (event: WheelEvent) => { }
     const mouseup = () => { }
     const mousedown = (event: MouseEvent) => { }
     const mousemove = (event: MouseEvent) => { }
